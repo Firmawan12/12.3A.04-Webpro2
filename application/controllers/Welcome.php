@@ -22,4 +22,8 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	public function halo()
+	{
+		//$data['nama_web"] = "<br> <h1>halo, saya sedang belajar CI 3"
+	}
 }
